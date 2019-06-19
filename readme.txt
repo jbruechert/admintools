@@ -1,4 +1,5 @@
 copyright (c) JBB 2015
 License WTFPL
 
-you can do what a fuck you want :)
+Textures:
+copyright (c) DerSachse 2017
