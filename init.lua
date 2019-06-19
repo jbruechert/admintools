@@ -6,7 +6,7 @@ minetest.register_tool("admintools:pick", {
 		full_punch_interval = 0.9,
 		max_drop_level=3,
 		groupcaps={
-			cracky = {times={[1]=0.0, [2]=0.0, [3]=0.0}, uses=0, maxlevel=3},
+			cracky = {times={[1]=0.0, [2]=0.0, [3]=0.0}, uses=450, maxlevel=3},
 		},
 		damage_groups = {fleshy=10},
 	},
@@ -20,7 +20,7 @@ minetest.register_tool("admintools:shovel", {
 		full_punch_interval = 1.0,
 		max_drop_level=1,
 		groupcaps={
-			crumbly = {times={[1]=0.0, [2]=0.0, [3]=0.0}, uses=0, maxlevel=3},
+			crumbly = {times={[1]=0.0, [2]=0.0, [3]=0.0}, uses=300, maxlevel=3},
 		},
 		damage_groups = {fleshy=4},
 	},
@@ -33,7 +33,7 @@ minetest.register_tool("admintools:axe", {
 		full_punch_interval = 0.9,
 		max_drop_level=1,
 		groupcaps={
-			choppy={times={[1]=0.0, [2]=0.0, [3]=0.0}, uses=0, maxlevel=2},
+			choppy={times={[1]=0.0, [2]=0.0, [3]=0.0}, uses=450, maxlevel=2},
 		},
 		damage_groups = {fleshy=7},
 	},
@@ -46,10 +46,10 @@ minetest.register_tool("admintools:universal_tool", {
 		full_punch_interval = 0.9,
 		max_drop_level=1,
 		groupcaps={
-			choppy={times={[1]=0.0, [2]=0.0, [3]=0.0}, uses=0, maxlevel=2},
-			crumbly = {times={[1]=0.0, [2]=0.0, [3]=0.0}, uses=0, maxlevel=3},
-			cracky = {times={[1]=0.0, [2]=0.0, [3]=0.0}, uses=0, maxlevel=3},
-                        snappy={times={[1]=0.0, [2]=0.00, [3]=0.0}, uses=0, maxlevel=3},
+			choppy={times={[1]=0.0, [2]=0.0, [3]=0.0}, uses=1500, maxlevel=2},
+			crumbly = {times={[1]=0.0, [2]=0.0, [3]=0.0}, uses=1500, maxlevel=3},
+			cracky = {times={[1]=0.0, [2]=0.0, [3]=0.0}, uses=1500, maxlevel=3},
+                        snappy={times={[1]=0.0, [2]=0.00, [3]=0.0}, uses=1500, maxlevel=3},
 		},
 		damage_groups = {fleshy=8},
 	},
