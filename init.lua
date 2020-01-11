@@ -95,7 +95,7 @@ minetest.register_craft({
 
 --aliases for /give
 
-minetest.register_alias("admintools:pick", "adminpick")
-minetest.register_alias("admintools:shovel", "adminshovel")
-minetest.register_alias("admintools:axe", "adminaxe")
-minetest.register_alias("admintools:universal_tool", "universaladmintool")
+minetest.register_alias("adminpick", "admintools:pick")
+minetest.register_alias("adminshovel", "admintools:shovel")
+minetest.register_alias("adminaxe", "admintools:axe")
+minetest.register_alias("universaladmintool", "admintools:universal_tool")
